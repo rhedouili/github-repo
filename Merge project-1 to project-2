@@ -1,0 +1,7 @@
+git clone project-1 url-1
+git clone project-2 url2
+cd path/to/project-2
+git remote add project-1 /path/to/project-1
+git fetch project-1 --tags
+git merge --allow-unrelated-histories project-1/main
+git remote remove project-1
